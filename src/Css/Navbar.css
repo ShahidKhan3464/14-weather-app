@@ -1,0 +1,26 @@
+.navbar {
+    padding: 2rem 0;
+}
+
+.logo {
+    color: rgb(185, 218, 42) !important;
+    font-size: 2rem;
+    letter-spacing: 0.2rem;
+    text-decoration: none;
+}
+
+.navbar-nav {
+    margin-left: 60rem;
+}
+
+.navbar-nav .link {
+    color: white !important;
+    padding-left: 5rem !important;
+    font-size: 2rem;
+    letter-spacing: 0.2rem;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: rgb(185, 218, 42) !important;
+}

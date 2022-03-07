@@ -1,0 +1,50 @@
+.row .left {
+    height: 65rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.left p {
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+}
+
+.left h1 {
+    font-size: 3.5rem;
+    margin: 1rem 0 4rem 0;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+}
+
+.left .text_clr {
+    color: #007bff;
+}
+
+.left button {
+    border: none;
+    padding: 0.8rem 1.8rem;
+    font-size: 1.4rem;
+    border-radius: 2rem;
+    text-transform: uppercase;
+    box-shadow: 0 8px 6px -6px #000;
+    outline: none;
+}
+
+.left button:hover {
+    box-shadow: 0 8px 6px -6px #007bff;
+}
+
+.row .right {
+    height: 65rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.right img {
+    width: 30rem !important;
+    margin: 0px 110px;
+}

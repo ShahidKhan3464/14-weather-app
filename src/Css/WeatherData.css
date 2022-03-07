@@ -1,0 +1,43 @@
+.weatherInfo {
+    width: 50rem;
+    height: 25rem;
+    margin: auto;
+    background: #323544;
+    border-radius: 1rem;
+}
+
+.top_layer {
+    background: #323544;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 1rem;
+}
+
+.top_layer p {
+    color: #fff;
+    padding: 2rem;
+    font-size: 1.3rem;
+    letter-spacing: 2px;
+}
+
+.main_layer {
+    padding: 2rem;
+}
+
+.main_layer .city_name {
+    padding: 2rem 0;
+    color: #bfc1c8;
+    font-size: 2rem;
+    letter-spacing: 2px;
+}
+
+.main_layer .middle_layer {
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+}
+
+.middle_layer p, .middle_layer .fa {
+    font-size: 4rem;
+}

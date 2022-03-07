@@ -1,0 +1,23 @@
+.error-page {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.error-page h1 {
+    font-size: 3.5rem;
+    margin: 1rem 0 4rem 0;
+    letter-spacing: 3px;
+}
+
+.error-page button {
+    padding: 0.8rem 1.8rem;
+    font-size: 1.4rem;
+    border-radius: 1rem;
+    text-transform: uppercase;
+    box-shadow: 0 8px 6px -6px #000;
+}
+
+.error-page button:hover {
+    box-shadow: 0 8px 6px -6px #007bff;
+}
