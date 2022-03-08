@@ -1,17 +1,12 @@
 @media (max-width: 480px) {
 
     /* Navbar */
-    /* body {
-        width: 100%;
-        height: 100%;
-    } */
-
     .navbar {
         padding: 1rem 0;
     }
 
     .navbar .logo {
-        font-size: 1rem;
+        font-size: 1.5rem;
     }
 
     .navbar-nav {
@@ -24,13 +19,14 @@
 
     .navbar .link {
         color: white !important;
-        font-size: 0.7rem;
+        font-size: 1rem;
+        padding: 1rem;
         width: 10rem;
     }
 
     /* Home */
     .row .left {
-        height: 40rem;
+        height: 20rem;
         margin: 0 1rem 0 1rem;
     }
 
@@ -39,14 +35,14 @@
     }
 
     .left h1 {
-        font-size: 1.8rem;
+        font-size: 1.7rem;
         margin: 0rem 0 1rem 0;
         letter-spacing: 2px;
     }
 
     .left button {
-        padding: 0.5rem 1.5rem;
-        font-size: 1rem;
+        padding: 0.7rem 1.5rem;
+        font-size: 0.8rem;
     }
 
     .row .right {
@@ -72,7 +68,7 @@
     }
 
     .form button {
-        font-size: 1rem;
+        font-size: 0.8rem;
         letter-spacing: 1px;
     }
 
@@ -102,7 +98,7 @@
 
     /* Footer */
     .footer p {
-        font-size: 0.7rem;
+        font-size: 0.8rem;
         line-height: 3rem;
     }
 }
