@@ -1,7 +1,10 @@
-@media (max-width: 400px) {
-    body {
+@media (max-width: 480px) {
+
+    /* Navbar */
+    /* body {
         width: 100%;
-    }
+        height: 100%;
+    } */
 
     .navbar {
         padding: 1rem 0;
@@ -11,12 +14,49 @@
         font-size: 1rem;
     }
 
+    .navbar-nav {
+        margin-left: -5rem;
+    }
+
     .navbar-toggler {
         background-color: #fff !important;
     }
 
     .navbar .link {
-        background-color: white !important;
+        color: white !important;
+        font-size: 0.7rem;
+        width: 10rem;
+    }
+
+    /* Home */
+    .row .left {
+        height: 40rem;
+        margin: 0 1rem 0 1rem;
+    }
+
+    .left p {
+        font-size: 1rem;
+    }
+
+    .left h1 {
+        font-size: 1.8rem;
+        margin: 0rem 0 1rem 0;
+        letter-spacing: 2px;
+    }
+
+    .left button {
+        padding: 0.5rem 1.5rem;
+        font-size: 1rem;
+    }
+
+    .row .right {
+        height: 0rem;
+        position: absolute;
+        top: 13rem;
+    }
+
+    .right img {
+        width: 10rem !important;
     }
 
     /* Form */
@@ -62,40 +102,7 @@
 
     /* Footer */
     .footer p {
-        font-size: 0.8rem;
+        font-size: 0.7rem;
         line-height: 3rem;
     }
-
-    /* Home */
-    .row .left {
-        height: 35rem;
-        margin: 0 1rem 0 1rem;
-    }
-
-    .left p {
-        font-size: 1rem;
-    }
-
-    .left h1 {
-        font-size: 1.8rem;
-        margin: 0rem 0 1rem 0;
-        letter-spacing: 2px;
-    }
-
-    .left button {
-        padding: 0.5rem 1.5rem;
-        font-size: 1rem;
-    }
-
-    .row .right {
-        height: 0rem;
-        position: absolute;
-        top: 12rem;
-        left: 2rem;
-    }
-
-    .right img {
-        width: 10rem !important;
-    }
-
 }
