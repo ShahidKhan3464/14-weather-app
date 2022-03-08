@@ -14,7 +14,7 @@ const SearchCity = () => {
 
     const fetchData = async () => {
         try {
-            const url = `http://api.openweathermap.org/data/2.5/weather?q=${value}&units=metric&appid=b4ba5cab1e7cf8891ffad0bc01bc6888`
+            const url = `https://api.openweathermap.org/data/2.5/weather?q=${value}&units=metric&appid=b4ba5cab1e7cf8891ffad0bc01bc6888`
             const { data } = await axios.get(url)
             setCity(`${data.name}, ${data.sys.country}`)
             setTemp(data.main.temp)
