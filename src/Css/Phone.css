@@ -1,10 +1,6 @@
 @media (max-width: 480px) {
 
     /* Navbar */
-    body {
-        height: 50% !important;
-    }
-
     .navbar {
         padding: 1rem 0;
     }
@@ -103,6 +99,26 @@
 
     .middle_layer p, .middle_layer .fa {
         font-size: 2rem;
+    }
+
+    /* Error Page */
+    .error-page img {
+        width: 10rem !important;
+    }
+
+    .error-page h1 {
+        font-size: 1.6rem;
+        margin: 1rem 0 2rem 0;
+    }
+
+    .error-page button {
+        padding: 0.5rem 1.5rem;
+        font-size: 1.2rem;
+        box-shadow: 0 6px 6px -6px #000;
+    }
+
+    .error-page button:hover {
+        box-shadow: 0 6px 6px -6px #007bff;
     }
 
     /* Footer */
