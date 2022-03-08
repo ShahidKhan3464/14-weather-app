@@ -30,7 +30,7 @@
 
     /* Home */
     .row .left {
-        height: 40rem;
+        height: 42rem;
         margin: 0 1rem 0 1rem;
     }
 
@@ -57,7 +57,7 @@
     .row .right {
         height: 0rem;
         position: absolute;
-        top: 13rem;
+        top: 15rem;
     }
 
     .right img {

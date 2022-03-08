@@ -4,8 +4,8 @@ const weekDay = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday
 const months = ['Jan', 'Feb', 'Mar', 'April', 'May', 'June', 'July', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
 
 const CurrentDate = () => {
-    const [day] = useState(weekDay[new Date().getDay() + 1])
-    const [date] = useState(new Date().getDate() + 1)
+    const [day] = useState(weekDay[new Date().getDay()])
+    const [date] = useState(new Date().getDate())
     const [month] = useState(months[new Date().getMonth()])
 
     return (
